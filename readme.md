@@ -1,3 +1,5 @@
+# this is azure terraform code
+
 $env:ARM_CLIENT_ID = "68086c4e-99e5-4fc1-b692-673772e72f56"
 $env:ARM_SUBSCRIPTION_ID = "WQy8Q~hT3yvbx_OQQOgQP2LmUEQOW3lk_ozZTa2Z"
 $env:ARM_SUBSCRIPTION_ID  = "9079719a-31cd-4984-9a89-aaeccdf63172"
