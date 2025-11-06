@@ -8,3 +8,13 @@ provider "azurerm" {
  # configuration options
 
 }
+terraform {
+  backend "azurerm" {
+    resource_group_name  = "storage-rg"
+    storage_account_name = "arav23456"
+    container_name       = "con1"
+    key                  = "aravind.tfstate"
+    access_key           = "af3XFwQFqypwgJWvWynsZFNQQfTV5p1qO3Pj3fBCy8jOOTvxm8kdZGm2PwUpIbMjRM65aBIprYm4+AStVPIxfw=="
+  }
+}
+
